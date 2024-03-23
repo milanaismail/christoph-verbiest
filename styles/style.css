@@ -525,6 +525,10 @@ footer ul li a:hover{
 
 /*phone*/
 @media (max-width: 768px) {
+.company-logos img{
+    height: 40px;
+
+}
 .header-content h1{
     font-size: 32px;
 }
@@ -576,7 +580,7 @@ nav ul li {
   }
 
   .header-content{
-    width:auto;
+    min-width:auto;
   }
 
   .header-content h1{
@@ -664,7 +668,9 @@ form{
 
 @media (min-width: 768px) {
 
-    
+    .header-content{
+        min-width: auto;
+    }
     .nav-container-desktop{
         display:none;
     }
