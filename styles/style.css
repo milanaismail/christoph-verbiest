@@ -6,6 +6,10 @@ body{
     overflow-x: hidden;
 }
 
+button{
+    color: black;
+}
+
 p{
     color: #333;
     font-size: 18px;
@@ -78,8 +82,6 @@ nav ul li a:active {
     cursor: pointer;
     margin-top: 20px;
     margin-bottom: 25px;
-    color: black;
-
 }
 
 .CTA.bel{
@@ -401,6 +403,7 @@ input[type="submit"]{
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
+    color: black;
 
 }
 
