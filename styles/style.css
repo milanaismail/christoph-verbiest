@@ -65,36 +65,6 @@ nav ul li a:active {
     color: #E69500;
 }
 
-
-/*
-.hamburger-menu {
-    display: flex;
-    align-items: center;
-    cursor:pointer;
-}
-
-
-
-.menu {
-    display: none;
-    position: absolute;
-    top: calc(100% + 10px); 
-    left: 0;
-    width: 100%;
-    padding: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.menu.active {
-    display: block;
-    top: 80px; 
-    right: 0;
-}
-
-
-
-
-*/
 .CTA{
     background-color: #FFA500;
     padding: 16px 24px;
@@ -206,6 +176,7 @@ nav ul li a:active {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 
 }
 
@@ -393,7 +364,7 @@ form{
 }
 
 .form-element{
-    width: -webkit-fill-available;
+    width: calc(100% - 32px);
     padding: 12px 16px;
     margin: 8px 0;
     background: #f1f1f1;
