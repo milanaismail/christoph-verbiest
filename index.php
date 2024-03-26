@@ -129,14 +129,14 @@
         <h3>Contact</h3>
         <h2>Neem contact op</h2>
         <div class="contact-element">
-            <img class="icon" src="/images/icon-phone.png">
+            <img class="icon" src="./images/icon-phone.png">
             <div class="contact-detail">
                 <p>Telefoon</p>
                 <p>06-12345678</p>
             </div>
         </div>
         <div class="contact-element">
-            <img class="icon" src="/images/icon-email.png">
+            <img class="icon" src="./images/icon-email.png">
             <div class="contact-detail">
                 <p>E-mail</p>
                 <p>christoph-verbiest@hotmail.com</p>
